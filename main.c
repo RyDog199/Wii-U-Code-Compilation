@@ -1,8 +1,8 @@
 #include <stdlib.h>
-#include "src/templates.h"
+#include "src/cheats.h"
 
 int main() {
-    searchTemplate();
+    RandomVR();
 
     return EXIT_SUCCESS;
 }

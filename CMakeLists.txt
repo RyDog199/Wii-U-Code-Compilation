@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
         main.c
-        src/definitions.h
-        src/enumerations.h
+        src/cheats.c
+        src/cheats.h
         src/internal_templates.h
         src/library_functions.h
         src/pointer_utilties.h

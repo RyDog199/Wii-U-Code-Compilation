@@ -1,13 +1,6 @@
-#include "templates.h"
+#include "cheats.h"
 
-void main_entry(int argc, char **argv) {
-	ramWrite8Bit();
-	ramWrite16Bit();
-	ramWrite32Bit();
-
-	stringWrite();
-	skipWrite();
-	fillMemory();
-	corrupter();
-	searchTemplate();
+void main_entry(int argc, char **argv) //put the function that you want to compile in here
+{
+	RandomVR();
 }
